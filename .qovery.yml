@@ -1,0 +1,11 @@
+---
+application:
+  name: "expressdemo"
+  project: "we2app-01"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-expressdemo"
+  routes:
+  - application_name: "expressdemo"
+    paths:
+    - "/*"
